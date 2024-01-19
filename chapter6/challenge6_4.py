@@ -149,7 +149,7 @@ def main():
     print('rキー： 現在のポーズに名前を付けて登録')
     print('Escキーを押して終了')
 
-    # Ctrl+cでエラーにならないようにKeyboardInterruptを捕まえる
+    # Ctrl+CでエラーにならないようにKeyboardInterruptを捕まえる
     try:
         while True:
             # 変更前の値を保持
